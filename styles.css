@@ -115,3 +115,12 @@ p1 {
   min-width: 100px;
   cursor: pointer;
 }
+
+.description {
+  margin-top: 50px;
+}
+
+.buttons {
+  margin-top: 50px;
+  text-align: center;
+}
