@@ -106,7 +106,7 @@ p1 {
 }
 
 .button {
-  background-color: #1c87c9;
+  background-color: rgb(2, 2, 63);
   border: none;
   color: white;
   padding: 20px 34px;
@@ -119,6 +119,12 @@ p1 {
   margin: 4px 2px;
   min-width: 100px;
   cursor: pointer;
+  transition: 0.4s;
+}
+
+.button:hover {
+  background-color: white;
+  color:rgb(2, 2, 63)
 }
 
 .description {
