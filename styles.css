@@ -91,6 +91,7 @@ h1 {
   font-family: 'Heebo', sans-serif;
   font-size: 64px;
   color: white;
+  text-align: center;
 }
 
 p1 {
@@ -118,6 +119,9 @@ p1 {
 
 .description {
   margin-top: 50px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .buttons {
