@@ -135,7 +135,7 @@ p1 {
 
 .accordion {
   background-color: rgb(2, 2, 63);
-  color: #444;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -147,7 +147,7 @@ p1 {
 
 .active, .accordion:hover {
   background-color: rgb(255, 255, 255);
-  color: white;
+  color: rgb(2, 2, 63);
 }
 
 .panel {
