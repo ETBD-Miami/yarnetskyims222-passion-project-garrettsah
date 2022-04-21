@@ -146,7 +146,7 @@ p1 {
 }
 
 .active, .accordion:hover {
-  background-color: blue;
+  background-color: rgb(255, 255, 255);
   color: white;
 }
 
