@@ -87,8 +87,14 @@
 }
 
 h1 {
-font-family: 'Fredoka', sans-serif;
-font-family: 'Heebo', sans-serif;
-font-size: 64px;
-color: white;
+  font-family: 'Fredoka', sans-serif;
+  font-family: 'Heebo', sans-serif;
+  font-size: 64px;
+  color: white;
+}
+
+p1 {
+  font-family: 'Fredoka', sans-serif;
+  font-family: 'Heebo', sans-serif;
+  color: white;
 }
