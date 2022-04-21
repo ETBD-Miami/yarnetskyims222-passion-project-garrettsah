@@ -132,3 +132,8 @@ p1 {
   margin-top: 50px;
   text-align: center;
 }
+
+.header-activities {
+  width: 100%;
+  height: 50%;
+}
