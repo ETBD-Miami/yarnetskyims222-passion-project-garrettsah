@@ -142,10 +142,12 @@ p {
   cursor: pointer;
   padding: 18px;
   width: 100%;
+  max-width: 750px;
   text-align: left;
   border: none;
   outline: none;
   transition: 0.4s;
+  margin: auto;
 }
 
 .accordion.active, .accordion:hover {
@@ -166,6 +168,17 @@ p {
   color: #777;
   float: right;
   margin-left: 5px;
+}
+
+.accordionButton {
+  margin: 25px auto;
+}
+.accordionContent p { 
+  padding-top: 10px; 
+  margin-top: 0; 
+}
+div.accordionContent { 
+  margin-top: -25px; 
 }
 
 .active:after {
