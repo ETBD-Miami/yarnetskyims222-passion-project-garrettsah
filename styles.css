@@ -102,6 +102,19 @@ p {
   text-align: center;
 }
 
+.accordion p {
+  font-family: 'Heebo', sans-serif;
+  color: rgb(2, 2, 63);
+  text-align: center;
+}
+
+.nav-buttons {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
 .button {
   background-color: rgb(2, 2, 63);
   border: none;
@@ -113,10 +126,11 @@ p {
   font-weight: bolder;
   display: inline-block;
   font-size: 20px;
-  margin: 4px 2px;
+  margin: 4px 12px;
   min-width: 100px;
   cursor: pointer;
   transition: 0.4s;
+  flex: 1;
 }
 
 .button:hover {
@@ -131,10 +145,7 @@ p {
   margin-right: 200px;
 }
 
-.buttons {
-  margin-top: 50px;
-  text-align: center;
-}
+/* --  ACCORDION -- */
 
 .accordion {
   background-color: rgb(2, 2, 63);
