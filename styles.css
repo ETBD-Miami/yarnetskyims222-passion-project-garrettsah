@@ -197,3 +197,9 @@ p1 {
   line-height:500px;
   margin:0;
 }
+
+.text {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-weight: bolder;
+}
