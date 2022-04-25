@@ -71,7 +71,7 @@
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.dot.active, .dot:hover {
   background-color: #717171;
 }
 
@@ -87,19 +87,16 @@
 }
 
 .numbertext {
-  font-family: 'Fredoka', sans-serif;
   font-family: 'Heebo', sans-serif;
 }
 h1 {
-  font-family: 'Fredoka', sans-serif;
   font-family: 'Heebo', sans-serif;
   font-size: 64px;
   color: white;
   text-align: center;
 }
 
-p1 {
-  font-family: 'Fredoka', sans-serif;
+p {
   font-family: 'Heebo', sans-serif;
   color: white;
   text-align: center;
