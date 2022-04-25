@@ -13,7 +13,6 @@
 </head>
 
 <body style="background-color:rgb(39, 36, 36)">
-<main class="container">
     <div class="header-activities">
         <div class="image">
                 <h1>Activities</h1>
@@ -59,34 +58,33 @@
         </div>
     </div>
 
-<div class="buttons">
-    <a href="characters.html" class="button">Characters</a>
-    <a href="gear.html" class="button">Gear</a>
-    <a href="weapons.html" class="button">Weapons</a>
-    <a href="index.html" class="button">Home</a>
-  </div>
-</main>
-
-<script>
+    <script>
     var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-acc[i].addEventListener("click", function() {
-/* Toggle between adding and removing the "active" class,
-to highlight the button that controls the panel */
-this.classList.toggle("active");
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
 
-/* Toggle between hiding and showing the active panel */
-var panel = this.nextElementSibling;
-if (panel.style.display === "block") {
-  panel.style.display = "none";
-} else {
-  panel.style.display = "block";
-}
-});
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
 }
 </script>
+
+<nav class="buttons">
+    <a href="characters.html" class="button">Characters</a>
+    <a href="gear.html" class="button">Gear</a>
+    <a href="weapons.html" class="button">Weapons</a>
+    <a href="index.html" class="button">Home</a>
+</nav>
 
 </body>
 </html>
