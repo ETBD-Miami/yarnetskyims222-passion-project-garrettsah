@@ -13,22 +13,21 @@
 </head>
 
 <body style="background-color:rgb(39, 36, 36)">
-
+<main class="container">
     <div class="header-activities">
         <div class="image">
                 <h1>Activities</h1>
+                <p>Within the Destiny 2 universe, there are multiple different activities you can take part in. Save the galaxy from evil alien forces, go head to head with friends, or compete to earn greater rewards. There are endless possibilities, and you'll never get bored!</p>
                 <img src="activitiespageheader.jpg" />
             </div>
         </div>
 
     <div class="accordion">
         <button class="accordion">Campaign</button>
-
-        <div class="image-campaign">
-            <img src="campaignpic.jpg">
-        </div>
-
         <div class="panel">
+            <div class="image-campaign">
+                <img src="campaignpic.jpg">
+            </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur vitae nunc sed velit. Donec massa sapien faucibus et molestie ac feugiat sed. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Adipiscing bibendum est ultricies integer quis.</p>
         </div>
         
@@ -60,33 +59,34 @@
         </div>
     </div>
 
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
-    this.classList.toggle("active");
-
-    /* Toggle between hiding and showing the active panel */
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-    </script>
-
 <div class="buttons">
     <a href="characters.html" class="button">Characters</a>
     <a href="gear.html" class="button">Gear</a>
     <a href="weapons.html" class="button">Weapons</a>
     <a href="index.html" class="button">Home</a>
   </div>
+</main>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+/* Toggle between adding and removing the "active" class,
+to highlight the button that controls the panel */
+this.classList.toggle("active");
+
+/* Toggle between hiding and showing the active panel */
+var panel = this.nextElementSibling;
+if (panel.style.display === "block") {
+  panel.style.display = "none";
+} else {
+  panel.style.display = "block";
+}
+});
+}
+</script>
 
 </body>
 </html>
