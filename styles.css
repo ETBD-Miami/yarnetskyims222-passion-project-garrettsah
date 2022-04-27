@@ -114,6 +114,12 @@ p {
   margin-right: 200px;
 }
 
+h2 {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
 /* -- NAV --*/
 
 .nav-buttons {
@@ -213,7 +219,10 @@ p {
 
 .image-guardian {
   text-align: center;
+  height: auto;
+  width: 100%;
   max-width: 100%;
+  object-fit: contain;
 }
 .image{
   position:relative;
