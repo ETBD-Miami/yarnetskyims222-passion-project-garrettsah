@@ -205,6 +205,16 @@ p {
   margin-bottom: 20px;
 }
 
+.header-characters {
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.image-guardian {
+  text-align: center;
+  max-width: 100%;
+}
 .image{
   position:relative;
 }
