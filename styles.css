@@ -1,3 +1,5 @@
+/* -- CAROUSEL -- */
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -89,6 +91,9 @@
 .numbertext {
   font-family: 'Heebo', sans-serif;
 }
+
+/* -- CONTENT --*/
+
 h1 {
   font-family: 'Heebo', sans-serif;
   font-size: 64px;
@@ -102,11 +107,14 @@ p {
   text-align: center;
 }
 
-.accordion p {
-  font-family: 'Heebo', sans-serif;
-  color: rgb(2, 2, 63);
+.description {
+  margin-top: 50px;
   text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
 }
+
+/* -- NAV --*/
 
 .nav-buttons {
   margin-top: 50px;
@@ -138,13 +146,6 @@ p {
   color:rgb(2, 2, 63)
 }
 
-.description {
-  margin-top: 50px;
-  text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
 /* --  ACCORDION -- */
 
 .accordion {
@@ -159,6 +160,12 @@ p {
   outline: none;
   transition: 0.4s;
   margin: auto;
+}
+
+.accordion p {
+  font-family: 'Heebo', sans-serif;
+  color: rgb(2, 2, 63);
+  text-align: center;
 }
 
 .accordion.active, .accordion:hover {
@@ -184,6 +191,8 @@ p {
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
+
+/* -- IMAGES -- */
 
 .image-campaign {
   width: 500px;
