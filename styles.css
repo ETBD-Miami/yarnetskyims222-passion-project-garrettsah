@@ -124,6 +124,9 @@ h2 {
   text-align: center;
 }
 
+.gear {
+  color:rgb(2, 2, 63)
+}
 /* -- NAV --*/
 
 .nav-buttons {
@@ -174,6 +177,7 @@ h2 {
 
 .accordion p {
   font-family: 'Heebo', sans-serif;
+  font-weight: 100;
   color: white;
   text-align: left;
 }
