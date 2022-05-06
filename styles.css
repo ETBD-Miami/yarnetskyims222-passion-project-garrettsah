@@ -171,7 +171,7 @@ h2 {
 .accordion p {
   font-family: 'Heebo', sans-serif;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .accordion.active, .accordion:hover {
@@ -184,7 +184,6 @@ h2 {
   background-color: rgb(39, 36, 36);
   display: none;
   overflow: hidden;
-  text-align: left;
 }
 
 .accordion:after {
