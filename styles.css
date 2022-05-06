@@ -170,18 +170,18 @@ h2 {
 
 .accordion p {
   font-family: 'Heebo', sans-serif;
-  color: rgb(2, 2, 63);
+  color: white;
   text-align: center;
 }
 
 .accordion.active, .accordion:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   color: rgb(2, 2, 63);
 }
 
 .panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: rgb(39, 36, 36);
   display: none;
   overflow: hidden;
 }
