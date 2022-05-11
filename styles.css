@@ -105,13 +105,15 @@ p {
   font-family: 'Heebo', sans-serif;
   color: white;
   text-align: center;
+  max-width: 960px;
+  margin: 50px auto;
 }
 
 .description {
   margin-top: 50px;
   text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
+  max-width: 960px;
+  margin: 50px auto;
 }
 
 h2 {
@@ -126,6 +128,10 @@ h2 {
 
 .gear {
   color:rgb(2, 2, 63)
+}
+
+.container {
+  text-align: center;
 }
 /* -- NAV --*/
 
