@@ -146,6 +146,8 @@ h4 {
 
 .container {
   text-align: center;
+  max-width: fit-content;
+  width: 100%;
 }
 /* -- NAV --*/
 
@@ -277,4 +279,11 @@ h4 {
   font-family: 'Heebo', sans-serif;
   color: white;
   font-weight: bolder;
+}
+
+.wormhusk-pic {
+  max-width: 100%
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
 }
