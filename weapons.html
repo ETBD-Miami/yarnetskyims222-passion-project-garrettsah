@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html land="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destiny 2: Weapons</title>
+    <meta name="author" content="Garrett Sah">
+    <meta name="description" content="A brief explanation of all the different types of weapons you can acquire and use in Destiny 2.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body style="background-color:rgb(39, 36, 36)">
+    <main class="container">
+    <div class="header-activities">
+        <div class="image">
+                <h1>Weapons</h1>
+                <img src="images/weaponsheader.jpg">
+                <p>Within the Destiny 2 universe, there are multiple different kinds of weapons you can acquire and use. Each weapon fits into one of three inventory slots according to its type: primary, special, and heavy. A player can equip one weapon of each slot and hold up to nine more of each slot in their inventory. Players can equip any weapon in their inventory at any time, but changing the equipped Special or Heavy weapon will forfeit half the weapon's ammo in PvE and all of the weapon's ammo in PvP.</p>
+            </div>
+        </div>
+
+    <div class="accordion-container">
+        <button class="accordion"><h2>Primary Weapons</h2></button>
+        <div class="panel">
+            <div class="image-campaign">
+                <img src="images/primary.jpg">
+            </div>
+            <h3>Primary Weapons</h3>
+            <p>Primary weapons are the main weapons used by Guardians. There are four different types of primary weapons:</p>
+                <p>Scout Rifles: Semi-automatic rifles with high accuracy.</p>
+                <p>Pulse Rifles: Burst-fire rifles designed for medium-range.</p>
+                <p>Auto Rifles: Fully-automatic rifles with high recoil.</p>
+                <p>Hand Cannons: Revolver handguns with the range varying from short-long and high impact.</p>
+            <p>Primary weapons have unlimited ammunition. In some rare cases, primary weapons may require special ammo (i.e. primary grenade launchers, snipers, shotguns).</p>
+
+        </div>
+        
+        <button class="accordion"><h2>Special Weapons</h2></button>
+        <div class="panel">
+            <div class="image-campaign">
+                <img src="images/special.JPG">
+            </div>
+            <h3>Special Weapons</h3>
+            <p>Special weapons deal higher amounts of damage, but they are less "all-purpose" and useful mainly in specific circumstances. There are four types of special weapons:</p>
+
+                <p>Shotguns: Close-quarters, but high damage.</p>
+                <p>Sidearms: Pistols with a high fire rate, but low range and impact.</p>
+                <p>Sniper Rifles: Long-range scope and high damage.</p>
+                <p>Fusion Rifles: Close- to mid-range directed-energy rifles that have charge cycles</p>
+          <p>Special weapon ammo can be replenished by picking up small, green ammo boxes.</p>
+        </div>
+
+        <button class="accordion"><h2>Heavy Weapons</h2></button>
+        <div class="panel">
+            <div class="image-campaign">
+                <img src="images/heavy.jpg">
+            </div>
+            <h3>Heavy Weapons</h3>
+            <p>Heavy weapons deal massive amounts of damage in a short amount of time. There are four types of heavy weapons:</p>
+
+                <p>Machine Guns: High rate of fire and extreme magazine capacity, deals a high amount of damage.</p>
+                <p>Rocket Launchers: Deals massive damage to a large radius.</p>
+                <p>Swords: Deals massive damage to a single target and can also be used to block damage.</p>
+                <p>Grenade Launchers: Deals massive damage to a medium-to-large radius.</p>
+            <p>Heavy weapon ammo can be replenished by picking up large, purple boxes or opening purple ammo crates.</p>
+        </div>
+
+        <h2>Light</h2>
+        <p>A weapon's Light is represented by a number and factors into a player's overall Light level. The higher a weapon's Light is, the more damage it will do to enemies. In regular Crucible modes, weapons' Light levels do not affect damage output. However, Light is a factor in playlists with Level Advantages enabled, such as Iron Banner and Trials of Osiris.</p>
+        
+        <h2>Damage Type</h2>
+        <p>There are five different damage types that a weapon may possess: kinetic, arc, solar, stasis, or void. Damage types can inflict additional damage to an enemy's shields. The color of an enemy's shield represents which damage type it is vulnerable to. Any unique damage types that are not used against their respective shields will only inflict the default damage of the weapon. A damage type will do additional damage to all enemies if the corresponding Burn modifier is active.</p>
+
+        </div>
+    </div>
+    </main>
+
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+<nav class="nav-buttons">
+    <a href="characters.html" class="button">Characters</a>
+    <a href="gear.html" class="button">Armor</a>
+    <a href="activities.html" class="button">Activities</a>
+    <a href="index.html" class="button">Home</a>
+</nav>
+
+</body>
+</html>

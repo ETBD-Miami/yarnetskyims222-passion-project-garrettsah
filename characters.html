@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html land="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destiny 2: Characters</title>
+    <meta name="author" content="Garrett Sah">
+    <meta name="description" content="A brief explanation of the power and levelling systems in Destiny 2, as well as the different types of characters you can play as and their special abilities.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body style="background-color:rgb(39, 36, 36)">
+    <main class="container">
+    <div class="header-characters">
+        <div class="image">
+                <h1>Characters</h1>
+                <img src="images/characterspageheader.gif">
+                <h2>Power Level & Season Rank Systems</h2>
+                <p>Formerly known as Light Level in the first game, Power Level is a way to gate content in Destiny 2. Essentially, the higher your Power Level, the more damage you're able to take and dish out, meaning you can play more challenging missions, be that Strikes, Trials of Osiris, or Raids.</p>
+            
+                <p>Your Season Rank is measured by how much experience (or XP) you collect. If you purchase the Season Pass, you can unlock lots of cool rewards as you rank up. Your Season Rank also grants you a Power Level bonus that increases as you rank up. Other than the Power bonus, your Season Rank doesn't mean much.
+                </p>
+            </div>
+        </div>
+<div class="guardian-types">
+<h2>Guardian Types</h2>
+</div>
+    <div class="accordion-container">
+        <button class="accordion"><h2>Titan</h2></button>
+        <div class="panel">
+
+                <img class="image-guardian" src="images/titan.jpg">
+
+                <h3>Titan</h3>
+            <p>The Titan is a class of Guardian. They tend to have the highest armor of any of the three classes in Destiny and the lowest agility. In game, you can pick from the Titan's four different subclasses that offer different abilities. Those four subclasses are Striker (Arc), Sunbreaker (Solar), Sentinel (Void), and Behemoth (Stasis).
+        </div>
+        
+        <button class="accordion"><h2>Hunter</h2></button>
+        <div class="panel">
+
+                <img class="image-guardian" src="images/hunter.jpg">
+
+                <h3>Hunter</h3>
+            <p>The Hunter is a much more agile and stealthy class of Guardian. They are the fastest of the guardian types. In game, you can pick from the Hunter's four different subclasses that offer different abilities. Those four subclasses are Gunslinger (Solar), Nightstalker (Void), Arcstrider (Arc), and Revenant (Stasis).</p>
+        </div>
+
+        <button class="accordion"><h2>Warlock</h2></button>
+        <div class="panel">
+
+                <img class="image-guardian" src="images/warlock.jpg">
+
+                <h3>Warlock</h3>
+            <p>The Warlock is a class of Guardian that heavily relies on their light abilities. They use the light to cast spells and to support their fellow Guardians. In game, you can pick from the Warlock's four different subclasses that offer different abilities. Those four subclasses are Voidwalker (Void), Stormcaller (Arc), Dawnblade (Solar), and Shadebinder (Stasis).</p>
+        </div>
+        </div>
+    </div>
+    </main>
+
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+<nav class="nav-buttons">
+    <a href="activities.html" class="button">Activities</a>
+    <a href="gear.html" class="button">Armor</a>
+    <a href="weapons.html" class="button">Weapons</a>
+    <a href="index.html" class="button">Home</a>
+</nav>
+
+</body>
+</html>

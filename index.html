@@ -4,15 +4,117 @@
 <head>     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your page title goes here</title>
-    <meta name="author" content="personalize with your name">
-    <meta name="description" content="describe your page here">
+    <title>Destiny 2: A Guide</title>
+    <meta name="author" content="Garrett Sah">
+    <meta name="description" content="Looking to get into Destiny 2? Need a refresher on the basics? Check out this player-made guide that will walk you through everything you need to get started!">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Heebo:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Heebo:wght@200;600&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-color:rgb(39, 36, 36)">
+  <h1>Destiny 2: A Guide for Beginners and Veterans Alike</h1>
+    <main class="container">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 6</div>
+                <img src="images/destiny1.jpg" alt="Original release poster" style="width:100%">
+                <div class="text">Cover Poster</div>
+              </div>
+            
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 6</div>
+                <img src="images/destiny2.jpg" alt="The Traveller under attack" style="width:100%">
+                <div class="text">The Traveller</div>
+              </div>
+            
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 6</div>
+                <img src="images/destiny3.jpg" alt="A guardian exploring the planet Nessus" style="width:100%">
+                <div class="text">Planet Nessus</div>
+              </div>
 
-    <!-- CONTENT GOES HERE -->
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                <img src="images/destiny4.jpg" alt="A hunter casting their arc staff" style="width:100%">
+                <div class="text">Arc Staff</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 6</div>
+                <img src="images/destiny5.jpg" alt="Two guardians engaging a Scorn enemy" style="width:100%">
+                <div class="text">Guardians in Action</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">6 / 6</div>
+                <img src="images/destiny6.jpg" alt="AI military system, the Warmind" style="width:100%">
+                <div class="text">The Warmind</div>
+              </div>
+            
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+              <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+
+        </div>
+    </main>
+
+
+<div class="description">
+  <p>Released by renowned game developing giant Bungie, Destiny 2 is a first person shooter MMO that allows you to explore the galaxy in the far future. Join millions of players, create your Guardian, and start collecting unique weapons and armor to customize your look and playstyle. Embark on challenging co-op missions and a variety of competitive PvP modes. Experience Destiny 2’s evolving story with friends or explore the stars as a fireteam of one.
+  </p>
+</div>
+
+<nav class="nav-buttons">
+  <a href="characters.html" class="button">Characters</a>
+  <a href="gear.html" class="button">Armor</a>
+  <a href="weapons.html" class="button">Weapons</a>
+  <a href="activities.html" class="button">Activities</a>
+</nav>
+<script>
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+let i;
+let slides = document.getElementsByClassName("mySlides");
+let dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+}
+</script>
 
 </body>
 
